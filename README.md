@@ -38,7 +38,8 @@ spec:
         image: nginx:1.14.2
         ports:
         - containerPort: 80
-
+```
+```
 # kubectl apply -f nginx-deployment.yaml 
 # kubectl edit deployment nginx-deployment
 resources
